@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="design-properties" content="{&quot;RULERS_VISIBLE&quot;:true,&quot;GUIDELINES_VISIBLE&quot;:false,&quot;SNAP_TO_OBJECTS&quot;:true,&quot;SNAP_TO_GRID&quot;:true,&quot;SNAPPING_DISTANCE&quot;:10,&quot;JAVA_SOURCES_ROOT&quot;:&quot;src/main/scala&quot;,&quot;THEME&quot;:&quot;mytheme&quot;}">
+  <meta name="vaadin-version" content="7.7.0">
+ </head> 
+ <body> 
+  <vaadin-vertical-layout spacing> 
+   <vaadin-text-area caption="to do:" width-full _id="todoArea"></vaadin-text-area> 
+   <vaadin-horizontal-layout spacing> 
+    <vaadin-combo-box caption="executor" input-prompt="" _id="executorComboBox"></vaadin-combo-box> 
+    <vaadin-combo-box caption="customer" _id="customerComboBox"></vaadin-combo-box> 
+    <vaadin-popup-date-field caption="date" height="37px" _id="dateField"></vaadin-popup-date-field> 
+   </vaadin-horizontal-layout> 
+   <vaadin-button plain-text _id="saveButton">
+     Save 
+   </vaadin-button> 
+  </vaadin-vertical-layout>  
+ </body>
+</html>

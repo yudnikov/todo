@@ -1,0 +1,20 @@
+@import "mytheme.scss";
+@import "addons.scss";
+
+// This file prefixes all rules with the theme name to avoid causing conflicts with other themes.
+// The actual styles should be defined in mytheme.scss
+
+.mytheme {
+  @include addons;
+  @include mytheme;
+
+  .main-header-layout {
+    background: #66127A;
+  }
+
+  .main-header-text {
+    color: #FAFAFA;
+    font-weight: bold;
+  }
+
+}

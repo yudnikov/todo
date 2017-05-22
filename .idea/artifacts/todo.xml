@@ -1,0 +1,82 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="todo">
+    <output-path>$PROJECT_DIR$/out/artifacts/todo</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Todo" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.vaadin.external.atmosphere:atmosphere-runtime:2.2.9.vaadin2" />
+          <element id="library" level="project" name="Maven: com.vaadin.external.flute:flute:1.3.0.gg2" />
+          <element id="library" level="project" name="Maven: com.vaadin.external.slf4j:vaadin-slf4j-jdk14:1.6.1" />
+          <element id="library" level="project" name="Maven: com.vaadin:vaadin-client-compiled:7.7.6" />
+          <element id="library" level="project" name="Maven: com.vaadin:vaadin-push:7.7.6" />
+          <element id="library" level="project" name="Maven: com.vaadin:vaadin-sass-compiler:0.9.13" />
+          <element id="library" level="project" name="Maven: com.vaadin:vaadin-server:7.7.6" />
+          <element id="library" level="project" name="Maven: com.vaadin:vaadin-shared:7.7.6" />
+          <element id="library" level="project" name="Maven: com.vaadin:vaadin-themes:7.7.6" />
+          <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:3.0.1" />
+          <element id="library" level="project" name="Maven: org.jsoup:jsoup:1.8.3" />
+          <element id="library" level="project" name="Maven: org.w3c.css:sac:1.3" />
+          <element id="library" level="application" name="scala-sdk-2.11.10" />
+          <element id="library" level="project" name="Maven: com.datastax.cassandra:cassandra-driver-core:3.2.0" />
+          <element id="library" level="project" name="Maven: com.github.jnr:jffi:1.2.10" />
+          <element id="library" level="project" name="Maven: com.github.jnr:jffi:native:1.2.10" />
+          <element id="library" level="project" name="Maven: com.github.jnr:jnr-constants:0.9.0" />
+          <element id="library" level="project" name="Maven: com.github.jnr:jnr-ffi:2.0.7" />
+          <element id="library" level="project" name="Maven: com.github.jnr:jnr-posix:3.0.27" />
+          <element id="library" level="project" name="Maven: com.github.jnr:jnr-x86asm:1.0.2" />
+          <element id="library" level="project" name="Maven: com.google.guava:guava:19.0" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:2.5.0" />
+          <element id="library" level="project" name="Maven: com.typesafe.akka:akka-actor_2.11:2.5.0" />
+          <element id="library" level="project" name="Maven: com.typesafe.akka:akka-persistence-experimental_2.11:2.3.16" />
+          <element id="library" level="project" name="Maven: com.typesafe.akka:akka-protobuf_2.11:2.5.0" />
+          <element id="library" level="project" name="Maven: com.typesafe.akka:akka-remote_2.11:2.5.0" />
+          <element id="library" level="project" name="Maven: com.typesafe.akka:akka-stream_2.11:2.5.0" />
+          <element id="library" level="project" name="Maven: com.typesafe:config:1.3.1" />
+          <element id="library" level="project" name="Maven: com.typesafe:ssl-config-core_2.11:0.2.1" />
+          <element id="library" level="project" name="Maven: io.aeron:aeron-client:1.2.3" />
+          <element id="library" level="project" name="Maven: io.aeron:aeron-driver:1.2.3" />
+          <element id="library" level="project" name="Maven: io.dropwizard.metrics:metrics-core:3.1.2" />
+          <element id="library" level="project" name="Maven: io.netty:netty-buffer:4.0.44.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-codec:4.0.44.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-common:4.0.44.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-handler:4.0.44.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-transport:4.0.44.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty:3.10.6.Final" />
+          <element id="library" level="project" name="Maven: org.agrona:agrona:0.9.3" />
+          <element id="library" level="project" name="Maven: org.fusesource.hawtjni:hawtjni-runtime:1.8" />
+          <element id="library" level="project" name="Maven: org.fusesource.leveldbjni:leveldbjni-all:1.7" />
+          <element id="library" level="project" name="Maven: org.fusesource.leveldbjni:leveldbjni-linux32:1.5" />
+          <element id="library" level="project" name="Maven: org.fusesource.leveldbjni:leveldbjni-linux64:1.5" />
+          <element id="library" level="project" name="Maven: org.fusesource.leveldbjni:leveldbjni-osx:1.5" />
+          <element id="library" level="project" name="Maven: org.fusesource.leveldbjni:leveldbjni-win32:1.5" />
+          <element id="library" level="project" name="Maven: org.fusesource.leveldbjni:leveldbjni-win64:1.5" />
+          <element id="library" level="project" name="Maven: org.fusesource.leveldbjni:leveldbjni:1.7" />
+          <element id="library" level="project" name="Maven: org.iq80.leveldb:leveldb-api:0.5" />
+          <element id="library" level="project" name="Maven: org.iq80.leveldb:leveldb:0.5" />
+          <element id="library" level="project" name="Maven: org.ow2.asm:asm-analysis:5.0.3" />
+          <element id="library" level="project" name="Maven: org.ow2.asm:asm-commons:5.0.3" />
+          <element id="library" level="project" name="Maven: org.ow2.asm:asm-tree:5.0.3" />
+          <element id="library" level="project" name="Maven: org.ow2.asm:asm-util:5.0.3" />
+          <element id="library" level="project" name="Maven: org.ow2.asm:asm:5.0.3" />
+          <element id="library" level="project" name="Maven: org.reactivestreams:reactive-streams:1.0.0" />
+          <element id="library" level="project" name="Maven: org.scala-lang.modules:scala-java8-compat_2.11:0.7.0" />
+          <element id="library" level="project" name="Maven: org.scala-lang.modules:scala-parser-combinators_2.11:1.0.4" />
+          <element id="library" level="project" name="Maven: org.scala-lang:scala-library:2.11.8" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.7" />
+          <element id="library" level="project" name="Maven: joda-time:joda-time:2.9.9" />
+          <element id="library" level="project" name="Maven: com.datastax.cassandra:cassandra-driver-extras:3.2.0" />
+          <element id="library" level="application" name="scala-sdk-2.11.8" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="Todo/web/Web" />
+      <element id="directory" name="VAADIN">
+        <element id="directory" name="widgetsets">
+          <element id="gwt-compiler-output" facet="Todo/gwt/GWT" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

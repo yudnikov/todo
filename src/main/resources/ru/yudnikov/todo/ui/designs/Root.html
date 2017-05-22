@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="design-properties" content="{&quot;RULERS_VISIBLE&quot;:true,&quot;GUIDELINES_VISIBLE&quot;:false,&quot;SNAP_TO_OBJECTS&quot;:true,&quot;SNAP_TO_GRID&quot;:true,&quot;SNAPPING_DISTANCE&quot;:10,&quot;JAVA_SOURCES_ROOT&quot;:&quot;src/main/scala&quot;,&quot;THEME&quot;:&quot;valo&quot;}">
+  <meta name="vaadin-version" content="7.7.0">
+ </head> 
+ <body> 
+  <vaadin-vertical-layout spacing> 
+   <vaadin-horizontal-layout style-name="main-header-layout" width-full height="80px" _id="headerLayout"> 
+    <vaadin-horizontal-layout width="800px" height-full margin-bottom :center> 
+     <vaadin-label style-name="huge main-header-text" size-auto plain-text _id="mainLogo" :bottom>
+       Label 
+     </vaadin-label> 
+     <vaadin-horizontal-layout spacing _id="buttons" :bottom :right> 
+      <vaadin-button icon="fonticon://FontAwesome/f067" plain-text _id="addTodoButton"></vaadin-button> 
+      <vaadin-button icon="fonticon://FontAwesome/f013" plain-text _id="settingsButton"></vaadin-button> 
+      <vaadin-button icon="fonticon://FontAwesome/f007" plain-text _id="logoutButton"></vaadin-button> 
+     </vaadin-horizontal-layout> 
+    </vaadin-horizontal-layout> 
+   </vaadin-horizontal-layout> 
+   <vaadin-panel width="800px" height-full _id="contentPanel" :center> 
+    <vaadin-vertical-layout spacing margin _id="contentLayout"></vaadin-vertical-layout> 
+   </vaadin-panel> 
+  </vaadin-vertical-layout>  
+ </body>
+</html>
